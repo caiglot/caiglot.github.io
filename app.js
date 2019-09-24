@@ -41,7 +41,7 @@ var OPACITY = {
   LINK_COLOR = "#C76858",
   INFLOW_COLOR = "#000000",
   OUTFLOW_COLOR = "#FFFFFF",
-  NODE_WIDTH = 20,
+  NODE_WIDTH = 30,
   COLLAPSER = {
     RADIUS: NODE_WIDTH / 2,
     SPACING: 2
@@ -121,7 +121,7 @@ biHiSankey
   .arrowheadScaleFactor(0.5) // Specifies that 0.5 of the link's stroke WIDTH should be allowed for the marker at the end of the link.
   .size([WIDTH, HEIGHT]);
 
-path = biHiSankey.link().curvature(0.45);
+path = biHiSankey.link().curvature(0.48);
 
 defs = svg.append("defs");
 
