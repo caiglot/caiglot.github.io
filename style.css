@@ -1,0 +1,293 @@
+ @font-face {
+  font-family: Cabrion-Bold;
+  src: url(cabrion-bold.ttf);
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Orbitron|Rajdhani&display=swap');
+
+
+ body {
+ margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+ overflow: auto;
+ height: 100%;
+ width: 100%;
+}
+
+.h2 {
+  font-family:Cabrion-Bold, sans-serif;
+}
+
+.Sun {
+  position: relative;
+  top: 0px;
+  left: 65%;
+}
+
+.tophalf {
+  background: #100c08;
+  position: absolute;
+  height:15000px;
+  top:0px;
+  width:100%;
+}
+
+.vertical {
+ height: 15000px;
+ width:5px;
+ border-left: 3px dotted white;
+ position: absolute;
+ top: 50px;
+ left:50px;
+ z-index:2;
+}
+
+
+.footer{
+  width:99%;
+  position:absolute;
+  bottom:0;
+  margin:0 auto;
+}
+
+#disclaimer-container {
+   border-radius: 25px 25px 0px 0px;
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:200px;
+   width:80%;
+   margin-left: 10%;
+   box-shadow: 0 0 20px 10px gray;
+   background:#999;
+}
+
+.hero-text {
+  font: 41px/57px "Orbitron";
+  position: absolute;
+  top: 4%;
+  left: 18%;
+  line-height:65px;
+  background: linear-gradient(orange 0%, #7E3885 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index:1;
+}
+
+.citation {
+  position:absolute;
+  width: 740px;
+  top:290px; 
+  margin-left:22%;
+  color:white;
+  font-family: 'Cabrion-Bold', sans-serif;
+  line-height:3em;
+  font-size:0.9em;
+  z-index:1;
+}
+
+.atmospheric1 {
+  position: relative;
+  top:220px;
+  left:20px;
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+  width:120px;
+  color: white;
+}
+
+.Exo {
+ position: relative;
+ width:20px;
+ height:20px;
+ border-top: 3px solid white;
+ top: 50px;
+ left:41px;
+}
+.atmospheric2 {
+  position: relative;
+  top:2000px;
+  left:20px;
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+  width:120px;
+  color: white;
+}
+
+.The {
+position: relative;
+ width:20px;
+ height:20px;
+ border-top: 3px solid white;
+ top: 1800px;
+ left:41px;
+}
+.atmospheric3 {
+  position: relative;
+  top:3600px;
+  left:20px;
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+  width:120px;
+  color: white;
+}
+
+.Mes {
+  position: relative;
+ width:20px;
+ height:20px;
+ border-top: 3px solid white;
+ top: 3400px;
+ left:41px;
+}
+.atmospheric4 {
+  position: relative;
+  top:5600px;
+  left:20px;
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+  width:120px;
+  color: white;
+   z-index:2;
+}
+
+.Str {
+   position: relative;
+ width:20px;
+ height:20px;
+ border-top: 3px solid white;
+ top: 5400px;
+ left:41px;
+  z-index:2;
+}
+
+.atmospheric5 {
+  position: relative;
+  top:8600px;
+  left:20px;
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+  margin-left:0.2%;
+  width:120px;
+  color: white;
+  z-index:2;
+}
+
+.Tro {
+   position: relative;
+ width:20px;
+ height:20px;
+ border-top: 3px solid white;
+ top: 8400px;
+ left:41px;
+  z-index:2;
+}
+
+.atmospheric6 {
+  position: relative;
+  top:10600px;
+  left:20px;
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+  margin-left:0.2%;
+  width:120px;
+  color: white;
+}
+
+.Lit {
+   position: relative;
+ width:20px;
+ height:20px;
+ border-top: 3px solid white;
+ top: 10400px;
+ left:41px;
+}
+
+.Neg {
+position: relative;
+ width:20px;
+ height:20px;
+ border-top: 3px solid white;
+ top: 13800px;
+ left:41px;
+}
+
+.Howto {
+  position: fixed;
+  top:420px;
+  left:95%;
+  width:60px;
+  height:60px;
+  z-index:3;
+}
+
+.Howto2 {
+  position: fixed;
+  top:220px;
+  left:95%;
+  width:63px;
+  height:63px;
+    z-index:3;
+}
+.node rect {
+  border-radius: 10px 10px 10px 10px;
+  cursor: move;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  font-size: 1em;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+
+.grow {
+  transition: all .3s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.5);
+
+}
+
+#tooltip {
+
+  position: absolute;
+  pointer-events: none;
+  font-size: 0.7em;
+  font-family: sans-serif;
+  padding: 3px;
+  width: auto;
+  height: auto;
+  background-color: #F2F2F2;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  -mox-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 5px rbga(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+.value {
+  white-space: pre-line;
+  margin: 0;
+}
+
+#disclaimer-button, #close {
+  position:fixed;
+  cursor:pointer;
+  display:block;
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+  margin-left:7.5%;
+  width:120px;
+  padding:5px 5px;
+  font-size: 16px;
+  background:coral;
+  color:white;
+  border:0;
+  text-align:center;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  
+}
