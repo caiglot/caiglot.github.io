@@ -119,7 +119,7 @@ biHiSankey = d3.biHiSankey();
 // Set the biHiSankey diagram properties
 biHiSankey
   .nodeWidth(NODE_WIDTH)
-  .nodeSpacing(10)
+  .nodeSpacing(15)
   .linkSpacing(4)
   .arrowheadScaleFactor(0.5) // Specifies that 0.5 of the link's stroke WIDTH should be allowed for the marker at the end of the link.
   .size([WIDTH, HEIGHT]);
