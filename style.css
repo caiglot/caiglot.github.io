@@ -62,6 +62,20 @@
    background:#999;
 }
 
+
+
+
+.planes div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+  z-index:3;
+}
+
+
 .hero-text {
   font: 41px/57px "Orbitron";
   position: absolute;

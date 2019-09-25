@@ -12,6 +12,9 @@ disclaimerButton.onclick = function() {
 }
 
 
+
+//NOTES OF CAUTION POP UP 
+
 function newPopup(url) {
   popupWindow = window.open(
     url,'popUpWindow','height=700,width=700,left=120,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
@@ -599,15 +602,14 @@ var exampleLinks = [
   {"source":1, "target":2, "value":100}, // chronological next 
   {"source":2, "target":3, "value":100}, // chronological next 
   {"source":3, "target":4, "value":100}, // chronological next 
-  {"source":4, "target":5, "value":100}, // chronological next 
-  {"source":5, "target":6, "value":100}, // chronological next 
+  {"source":4, "target":6, "value":100}, // chronological next 
   {"source":6, "target":7, "value":100}, // chronological next
   {"source":7, "target":11, "value":100}, // chronological next
   {"source":7, "target":8, "value":100}, // chronological next
   {"source":8, "target":9, "value":30}, // chronological next
   {"source":7, "target":10, "value":20}, // chronological next
   {"source":9, "target":2, "value":20}, // chronological next
-  {"source":10, "target":5, "value":20}, // chronological next
+  {"source":10, "target":3, "value":20}, // chronological next
   {"source":6, "target":1, "value":40}, //This is the relation to the paper published on famines, etc.      
 
 ]
