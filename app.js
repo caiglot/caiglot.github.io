@@ -597,7 +597,6 @@ var exampleNodes = [
 
 var exampleLinks = [
   {"source":1, "target":2, "value":100}, // chronological next 
-  {"source":1, "target":10, "value":100}, // chronological next 
   {"source":2, "target":3, "value":100}, // chronological next 
   {"source":3, "target":4, "value":100}, // chronological next 
   {"source":4, "target":5, "value":100}, // chronological next 
@@ -608,7 +607,7 @@ var exampleLinks = [
   {"source":8, "target":9, "value":30}, // chronological next
   {"source":7, "target":10, "value":20}, // chronological next
   {"source":9, "target":2, "value":20}, // chronological next
-  {"source":7, "target":5, "value":20}, // chronological next
+  {"source":10, "target":5, "value":20}, // chronological next
   {"source":6, "target":1, "value":40}, //This is the relation to the paper published on famines, etc.      
 
 ]
