@@ -22,6 +22,7 @@
   position: relative;
   top: 0px;
   left: 65%;
+  z-index:-2;
 }
 
 .tophalf {
@@ -30,6 +31,7 @@
   height:15000px;
   top:0px;
   width:100%;
+ z-index:-3;
 }
 
 .vertical {
@@ -39,7 +41,7 @@
  position: absolute;
  top: 50px;
  left:50px;
- z-index:2;
+ z-index:-1;
 }
 
 
@@ -60,6 +62,7 @@
    margin-left: 10%;
    box-shadow: 0 0 20px 10px gray;
    background:#999;
+   z-index:-1;
 }
 
 
@@ -88,7 +91,7 @@
     1px -1px 0 #fff,
     -1px 1px 0 #fff,
      1px 1px 0 #fff;
-  z-index:1;
+  z-index:0;
 }
 
 
@@ -101,7 +104,7 @@
   font-family: 'Open Sans', sans-serif;
   line-height:3em;
   font-size:0.8em;
-  z-index:1;
+  z-index:0;
 }
 
 .atmospheric1 {
@@ -112,6 +115,7 @@
   transform-origin: left top 0;
   width:120px;
   color: white;
+  z-index:0;
 }
 
 .Exo {
@@ -121,6 +125,7 @@
  border-top: 3px solid white;
  top: 50px;
  left:41px;
+ z-index:0;
 }
 .atmospheric2 {
   position: relative;
@@ -130,6 +135,7 @@
   transform-origin: left top 0;
   width:120px;
   color: white;
+ z-index:0;
 }
 
 .The {
@@ -139,6 +145,7 @@ position: relative;
  border-top: 3px solid white;
  top: 1800px;
  left:41px;
+ z-index:0;
 }
 .atmospheric3 {
   position: relative;
@@ -148,6 +155,7 @@ position: relative;
   transform-origin: left top 0;
   width:120px;
   color: white;
+ z-index:0;
 }
 
 .Mes {
@@ -157,6 +165,7 @@ position: relative;
  border-top: 3px solid white;
  top: 3400px;
  left:41px;
+ z-index:0;
 }
 .atmospheric4 {
   position: relative;
@@ -166,7 +175,7 @@ position: relative;
   transform-origin: left top 0;
   width:120px;
   color: white;
-   z-index:2;
+  z-index:0;
 }
 
 .Str {
@@ -176,7 +185,7 @@ position: relative;
  border-top: 3px solid white;
  top: 5400px;
  left:41px;
-  z-index:2;
+ z-index:0;
 }
 
 .atmospheric5 {
@@ -188,7 +197,7 @@ position: relative;
   margin-left:0.2%;
   width:120px;
   color: white;
-  z-index:2;
+  z-index:0;
 }
 
 .Tro {
@@ -198,7 +207,7 @@ position: relative;
  border-top: 3px solid white;
  top: 8400px;
  left:41px;
-  z-index:2;
+ z-index:0;
 }
 
 .atmospheric6 {
@@ -210,6 +219,7 @@ position: relative;
   margin-left:0.2%;
   width:120px;
   color: white;
+ z-index:0;
 }
 
 .Lit {
@@ -219,6 +229,7 @@ position: relative;
  border-top: 3px solid white;
  top: 10400px;
  left:41px;
+ z-index:0;
 }
 
 .Neg {
@@ -228,6 +239,7 @@ position: relative;
  border-top: 3px solid white;
  top: 13800px;
  left:41px;
+ z-index:0;
 }
 
 .Howto {
@@ -236,7 +248,7 @@ position: relative;
   left:93%;
   width:60px;
   height:60px;
-  z-index:3;
+ z-index:0;
 }
 
 .Howto2 {
@@ -245,7 +257,7 @@ position: relative;
   left:93%;
   width:63px;
   height:63px;
-    z-index:3;
+  z-index:0;
 }
 .node rect {
   border-radius: 10px 10px 10px 10px;
@@ -306,5 +318,6 @@ position: relative;
   text-align:center;
   border-top-left-radius:10px;
   border-top-right-radius:10px;
+ z-index:0;
   
 }
