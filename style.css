@@ -87,12 +87,12 @@
   top: 0px;
   left: 18%;
   line-height:65px;
-  color: #7E3885; 
+  color: black; 
  text-shadow:
    -1px -1px 0 coral,  
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-     1px 1px 0 #fff;
+    1px -1px 0 #7E3885,
+    -1px 1px 0 #7E3885,
+     1px 1px 0 #7E3885;
   z-index:0;
 }
 
