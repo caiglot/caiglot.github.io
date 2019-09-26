@@ -50,9 +50,6 @@
  border-left: 3px dashed coral;
  border-right: 3px dashed coral;
  transform: rotate(50deg);
- position:absolute;
- right: 500px;
- top:0px;
  z-index:-1px;
 }
 
@@ -63,14 +60,16 @@
  border-left: 3px dashed coral;
  border-right: 3px dashed coral;
  transform: rotate(250deg);
- position:absolute;
- right: 400px;
- top:3000px;
  z-index:-1px;
 }
 
 .solarlight3{
- 
+ height:3000px;
+ width: 100px;
+ border-left: 3px dashed coral;
+ border-right: 3px dashed coral;
+ transform: rotate(250deg);
+ z-index:-1px;
 }
 .footer{
   width:99%;
