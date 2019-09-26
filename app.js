@@ -119,7 +119,7 @@ biHiSankey = d3.biHiSankey();
 // Set the biHiSankey diagram properties
 biHiSankey
   .nodeWidth(NODE_WIDTH)
-  .nodeSpacing(15)
+  .nodeSpacing(18)
   .linkSpacing(4)
   .arrowheadScaleFactor(0.5) // Specifies that 0.5 of the link's stroke WIDTH should be allowed for the marker at the end of the link.
   .size([WIDTH, HEIGHT]);
@@ -171,7 +171,7 @@ function update () {
   var link, linkEnter, node, nodeEnter, collapser, collapserEnter;
 
   function dragmove(node) {
-    node.x = Math.max(0, Math.min(WIDTH - node.width, d3.event.x));
+    node.x = Math.max(0, Math.min(WIDTH - node.width+10, d3.event.x));
     node.y = Math.max(0, Math.min(HEIGHT - node.height, d3.event.y));
     d3.select(this).attr("transform", "translate(" + node.x + "," + node.y + ")");
     biHiSankey.relayout();
