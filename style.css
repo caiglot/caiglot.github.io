@@ -47,6 +47,7 @@
 .solarlight1 {
  height:3000px;
  width: 100px;
+ transform:translateX(-300px);
  border-left: 3px dashed coral;
  border-right: 3px dashed coral;
  transform: rotate(50deg);
