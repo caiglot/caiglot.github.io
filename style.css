@@ -45,20 +45,26 @@
 }
 
 .solarlight1 {
- 
+ height:3000px;
  border-left: 3px dotted coral;
  border-right: 3px dotted coral;
- transform-rotate:25%;
- height:3000px;
- position:relative;
+  transform: rotate(30deg);
+ position:absolute;
  right: 200px;
  top:0px;
- z-index:-2px;
+ z-index:-1px;
 }
 
 
 .solarlight2{
- 
+ height:3000px;
+ border-left: 3px dotted coral;
+ border-right: 3px dotted coral;
+ transform: rotate(270deg);
+ position:absolute;
+ right: 200px;
+ top:3000px;
+ z-index:-1px;
 }
 
 .solarlight3{
