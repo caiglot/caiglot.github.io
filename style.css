@@ -14,6 +14,8 @@
  width: 100%;
 }
 
+
+
 .h2 {
   font-family:Open Sans, sans-serif;
 }
@@ -34,6 +36,7 @@
  z-index:-3;
 }
 
+
 .vertical {
  height: 15000px;
  width:5px;
@@ -44,34 +47,6 @@
  z-index:-1;
 }
 
-.solarlight1 {
- height:3000px;
- width: 100px;
- transform:translateX(-300px);
- border-left: 3px dashed coral;
- border-right: 3px dashed coral;
- transform: rotate(50deg);
- z-index:-1px;
-}
-
-
-.solarlight2{
- height:3000px;
- width: 100px;
- border-left: 3px dashed coral;
- border-right: 3px dashed coral;
- transform: rotate(250deg);
- z-index:-1px;
-}
-
-.solarlight3{
- height:3000px;
- width: 100px;
- border-left: 3px dashed coral;
- border-right: 3px dashed coral;
- transform: rotate(250deg);
- z-index:-1px;
-}
 .footer{
   width:99%;
   position:absolute;
