@@ -46,12 +46,12 @@
 
 .solarlight1 {
  height:3000px;
- width: 50px;
- border-left: 3px dotted coral;
- border-right: 3px dotted coral;
+ width: 100px;
+ border-left: 3px dashed coral;
+ border-right: 3px dashed coral;
  transform: rotate(50deg);
  position:absolute;
- right: 300px;
+ right: 500px;
  top:0px;
  z-index:-1px;
 }
@@ -60,11 +60,11 @@
 .solarlight2{
  height:3000px;
  width: 100px;
- border-left: 3px dotted coral;
- border-right: 3px dotted coral;
+ border-left: 3px dashed coral;
+ border-right: 3px dashed coral;
  transform: rotate(250deg);
  position:absolute;
- right: 200px;
+ right: 400px;
  top:3000px;
  z-index:-1px;
 }
