@@ -244,6 +244,13 @@ position: relative;
  z-index:0;
 }
 
+.Content
+{
+  height:224px;
+   overflow:auto;
+    background:#fff;
+}
+
 .Howto {
   position: fixed;
   top:420px;
