@@ -248,7 +248,8 @@ position: relative;
 {
   height:224px;
    overflow:auto;
-    background:#fff;
+    background:#d3d3d3;
+    padding:3px; margin-left:5px; 
 }
 
 .Howto {
